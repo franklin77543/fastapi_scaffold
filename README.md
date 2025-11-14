@@ -79,3 +79,15 @@ Pydantic 模型用於請求/響應驗證
 ```
 DATABASE_URL=postgresql://user:password@localhost/dbname
 ```
+
+## 基本設定
+git config --global user.email "franklin77543@hotmail.com"
+git config --global user.name "Frank Lin"
+
+## 轉換為 main 並推到遠端：
+## 遠端先建立好分支
+
+## 推到已存在遠端（使用當前分支 main）：
+git branch -M main
+# git remote add origin https://github.com/franklin77543/fastapi_scaffold.git
+git push -u origin main
